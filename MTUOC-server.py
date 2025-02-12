@@ -513,7 +513,7 @@ if config.MTUOCServer_MTengine=="Aina":
         GetWordAlignments_rev_params_file="./aina-translator-es-ast/ast-es.params"
         GetWordAlignments_rev_err_file="./aina-translator-es-ast/ast-es.err"   
         truecaser_tokenizer="MTUOC_tokenizer_spa"
-        tcmodel="./aina-translator-es-oc/tc.es"
+        tcmodel="./aina-translator-es-ast/tc.es"
         config.srxfiles=["segment.srx"]
         config.srxlang="Spanish"
         config.MTUOCServer_MTengine="NLLB"
